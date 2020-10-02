@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee King</title>
+    <title> Surprise </title>
     <link rel="icon" href="./images/coffee.png" sizes="16x16" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif|Pacifico&display=swap" rel="stylesheet">
     <!-- materalize icon -->
@@ -11,9 +11,9 @@
     <!-- actual materalize css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/style.css"> 
 </head>
-<body>
+<body stytle="vertical-align: middle;">
     <section class="fnavbar">
         <nav class="nav-fixed">
             <div class="nav-wrapper">
@@ -22,7 +22,7 @@
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="coffee.html">Coffee</a></li>
-                <li><a href="surprise.html">Surprise!</a></li>
+                <li><a href="surprise.html" >Surprise!</a></li>
                 <li><a href="#" onclick="toggleModal();">Contact</a></li>
               </ul>
             </div>
@@ -31,31 +31,26 @@
           <ul class="sidenav" id="mobile-demo">
             <li><a href="index.html">Home</a></li>
             <li><a href="coffee.html" >Coffee</a></li>
-            <li><a href="#" onclick="toggleModal();">Surprise!</a></li>
+            <li><a href="surprise.html" >Surprise!</a></li>
             <li><a href="#" onclick="toggleModal();">Contact</a></li>
           </ul>
           </ul>        
     </section>
-    
-    <section class="fparallax">
-        <div class="parallax-container">
-            <div class="parallax"><img src="images/gm-coffee.jpg"></div>
-          </div>
-    </section>
+    <center>
+    <img src="images/50@.gif" alt="this slowpoke moves" class="my-auto" width=550/><br><br>
+    <!-- <img src="images/1.gif" alt="this slowpoke moves"  width=250/> -->
+    </center>
+    <div id="div" class="row center">
+        <p class="grey-text text-darken-3 lighten-3">Only for You and Your Friend!! Share Us with them and Enjoy Your Coffee </p>
+    <a href="index.html" class="waves-effect waves-light btn">Home</a>
+</div>
+<br>
+<br>
+<br><br>
+<br>
+<br>
 
-      <div class="section white">
-        <div class="row container">
-          <h2 class="header">CafeKing</h2>
-          <p class="grey-text text-darken-3 lighten-3">Our mission since we started has stayed simple: introduce our customers to the estates we directly buy our great tasting coffee from, roast the beans with care, and make high quality coffee more accessible through our cafes and our website. The coffee we roast is the coffee we like to drink, and we hope you like it too.
-
-            We are now open for delivery for most pincodes across India!  Our Delhi, Bombay, and Bangalore roasteries are all roasting fresh coffee throughout the week and we are trying to dispatch all orders within 5 days, with many shipping much sooner. However, please expect some delays on the part of the couriers as they are facing very restricted movement. </p>
-        </div>
-      </div>
-      <div class="parallax-container">
-        <div class="parallax"><img src="images/caro3.jpg"></div>
-      </div>
-
-      <section class="footerr">
+<section class="footerr">
         <footer class="footer-one">
             <div class="container">
                 <div class="row">
@@ -114,12 +109,18 @@
             </div>
         </footer>
     </section>
+<section class="infomodal">
+        <!-- class modal coming from materalize css -->
+        <div id="modal3" class="modal">
+            <!-- class modal-content also coming from materalize css  -->
+            <div class="modal-content">
+                <h4 id="info-modal-heading">Link Disabled</h4>
+                <p id="info-modal-content">Sorry ! All links are dis as of now</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close wave-effect btn-flat">Close</a>
+            </div>
+        </div>
+    </section>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    
-    <!-- materalize js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <!-- custom js -->
-    <script src="./js/loader.js"></script>
 </html>
