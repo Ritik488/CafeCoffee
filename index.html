@@ -25,6 +25,7 @@
               <a href="#" class="brand-logo">CafeKing</a>
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
+                
                 <li><a href="#" onclick="toggleModal();">Home</a></li>
                 <li><a href="aboutus.html">About us</a></li>
                 <li><a href="coffee.html">Coffee</a></li>
@@ -35,6 +36,13 @@
           </nav>
         
           <ul class="sidenav" id="mobile-demo">
+            <li><div class="user-view">
+                  <div class="background">
+                    <img src="./images/banner1.png" height="auto">
+                  </div>
+                  <a href="#name"><span class="white-text name">Cafe King</span></a>
+                  <a href="#email"><span class="white-text email">+91-9898989800</span></a>
+                </div></li>
             <li><a href="#" onclick="toggleModal();">Home</a></li>
             <li><a href="aboutus.html">About us</a></li>
             <li><a href="coffee.html">Coffee</a></li>
@@ -151,7 +159,7 @@
                 <p class="grey-text text-darken-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quos. Molestiae ipsum dolore quod, nostrum exercitationem natus repellat vero? Consequuntur reiciendis odit tempore atque accusantium ullam modi autem aliquid soluta repudiandae accusamus quas alias natus placeat tenetur, voluptatem distinctio maxime. Accusamus ipsam exercitationem optio? Sapiente cum eveniet tempora necessitatibus? Doloribus quae ipsam aliquam incidunt ratione, rerum porro sunt expedita? Laborum sapiente consectetur dolor corporis fugit dicta ipsa rerum officiis voluptates! Non obcaecati molestiae voluptates quidem nihil repellendus laudantium ea sapiente velit. Iste sit, quod illo ratione consequatur at nemo dolores culpa aspernatur veniam expedita voluptate, praesentium enim itaque totam explicabo.
                 </p>
-                <a href="#" style="background-color: #6f4037 !important" onclick="toggleModal()" class="btn waves-effect waves-light">Read More</a>
+                <a href="aboutus.html" style="background-color: #6f4037 !important" class="btn waves-effect waves-light">Read More</a>
             </div>
         </div>
     </section>
@@ -274,7 +282,23 @@
         <footer class="footer-one">
             <div class="container">
                 <div class="row">
-                    <div class="col l6 s12 center">
+                    <div class="col l4 s12 center">
+                        <h4 class="white-text">
+                            Useful Links
+                        </h4>
+                        <ul>
+                            <li><a href="aboutus.html" class="grey-text text-lighten-3">
+                                About Us
+                            </a></li>
+                            <li><a href="#" class="grey-text text-lighten-3">
+                                Contact Us
+                            </a></li>
+                            <li><a href="coffee.html" class="grey-text text-lighten-3">
+                                Coffee
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="col l4 s12 center">
                         <h4 class="white-text">
                             Contact Us
                         </h4>
@@ -285,7 +309,7 @@
                             +91-9898989800
                         </p>
                     </div>
-                    <div class="col l6 s12 center">
+                    <div class="col l4 s12 center">
                         <h4 class="white-text">
                             Social Media
                         </h4>
