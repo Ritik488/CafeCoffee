@@ -33,3 +33,11 @@
 .tool{
     background-color: #462822;
 }
+
+.ui-tool{
+    display: block;
+    background: scroll;
+    border-start-end-radius: 0px;
+    margin: auto;
+    padding: 10px;
+}
